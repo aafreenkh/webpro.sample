@@ -1,0 +1,26 @@
+* {
+    flex: content;
+    align-items: center;
+}
+
+.form {
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 50px;
+}
+
+navbar {
+    position: absolute;
+    padding: 10px;
+    display: table;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+}
+
+@media only screen and (max-width:400px) {
+    * {
+        text-align: center;
+    }
+}
